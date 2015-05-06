@@ -1,1 +1,2 @@
-python app.py > logs/service.log 2>&1 &
+mkdir -p logs
+python app.py > logs/app.log 2>&1 &
