@@ -1,0 +1,1 @@
+python app.py > logs/service.log 2>&1 &
