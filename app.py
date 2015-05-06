@@ -7,7 +7,8 @@ import os, tempfile
 
 # sys.path.append("./service")
 
-serverHostname = socket.gethostname()
+#serverHostname = socket.gethostname()
+serverHostname = '127.0.0.1'
 servicePort = 9999
 cherrypy.config.update({'server.socket_host':serverHostname, 'server.socket_port': servicePort,})
 
